@@ -1,0 +1,67 @@
+A Records:
+[0] Name: digitalocean.com | TTL: 66 | Data: 104.16.182.15
+[1] Name: digitalocean.com | TTL: 66 | Data: 104.16.181.15
+-----------
+TXT Records:
+[0] Name: digitalocean.com | TTL: 300 | Data: "google-site-verification=L7GrSzUqUym9QQZaUObnH54fKj8Ywy5fXBmlB2swtO4"
+[1] Name: digitalocean.com | TTL: 300 | Data: "v=spf1 include:spf.digitalocean.com include:servers.mcsv.net include:_spf.google.com include:_spf.salesforce.com include:mg-spf.greenhouse.io include:helpscoutemail.com -all"
+[2] Name: digitalocean.com | TTL: 300 | Data: "google-site-verification=d1OZI1B9Dkk1bIsehHnNPfKNDk_LHTMacrmFC4DH810"
+[3] Name: digitalocean.com | TTL: 300 | Data: "google-site-verification=uw6yLkYIxTpMH_oB_VUeHFVtEgzZv__9CFtPao2ey5A"
+[4] Name: digitalocean.com | TTL: 300 | Data: "google-site-verification=m_Il8DtaQj0KAKeqMH4ipoGCwvov1gkT4xpFH9-CGqw"
+[5] Name: digitalocean.com | TTL: 300 | Data: "docusign=75bbbe4f-f3dc-44c5-a202-5b43f6c27844"
+[6] Name: digitalocean.com | TTL: 300 | Data: "stripe-verification=b69a661304f47463194cd46b2c35c8f8e1862539e29f1bddbb69579426a53ef9"
+[7] Name: digitalocean.com | TTL: 300 | Data: "stripe-verification=ef8010dac57762d5dbc26b1aab014279f3ef0ebc3f06c5ae6c42c33dba2233b0"
+[8] Name: digitalocean.com | TTL: 300 | Data: "ZOOM_verify_zHmsYmlxSZ2nBssYFU7IyQ"
+[9] Name: digitalocean.com | TTL: 300 | Data: "apple-domain-verification=2c14j0hvC2WbUKNQ"
+[10] Name: digitalocean.com | TTL: 300 | Data: "atlassian-domain-verification=vNGhwIzzcLrF7H9pazlsH17hC9W5zBEPX6o0C8f4hFfguiPaZdwZg3O4wSS8cYZ0"
+[11] Name: digitalocean.com | TTL: 300 | Data: "stripe-verification=7744401ba1e29e328fe564961edab72baa98a6e918e0079bb22df62cb5bf6f23"
+[12] Name: digitalocean.com | TTL: 300 | Data: "facebook-domain-verification=0fovfs7vdufohrji2o3ny4hajbkt60"
+[13] Name: digitalocean.com | TTL: 300 | Data: "google-site-verification=EXBVUJOfdMWQiIOOVOnxOztWwyIkdDf4Hmh3IHMe5LE"
+[14] Name: digitalocean.com | TTL: 300 | Data: "stripe-verification=dab9251d3476acbdb63d9c93c21c8371c4d9143bdfc7214ee2611326f3b051d3"
+[15] Name: digitalocean.com | TTL: 300 | Data: "stripe-verification=de7b481fb94c6c8a20a9c55ff303f96a039ef4fc3131ea11364d9916c4e9a21f"
+[16] Name: digitalocean.com | TTL: 300 | Data: "miro-verification=95d03a8b9ac8249a0501307480b5881fea377d33"
+[17] Name: digitalocean.com | TTL: 300 | Data: "MS=ms33165602"
+[18] Name: digitalocean.com | TTL: 300 | Data: "docker-verification=8ccf6122-0fff-48d1-afc6-7f0da0833275"
+-----------
+MX Records:
+[0] Name: digitalocean.com | TTL: 3600 | Data: aspmx.l.google.com. | Priority: 1
+[1] Name: digitalocean.com | TTL: 3600 | Data: alt2.aspmx.l.google.com. | Priority: 5
+[2] Name: digitalocean.com | TTL: 3600 | Data: alt1.aspmx.l.google.com. | Priority: 5
+[3] Name: digitalocean.com | TTL: 3600 | Data: aspmx3.googlemail.com. | Priority: 10
+[4] Name: digitalocean.com | TTL: 3600 | Data: aspmx2.googlemail.com. | Priority: 10
+-----------
+AAAA Records:
+[0] Name: digitalocean.com | TTL: 66 | Data: 2606:4700::6810:b50f
+[1] Name: digitalocean.com | TTL: 66 | Data: 2606:4700::6810:b60f
+-----------
+CNAME Records: None
+-----------
+CAA Records:
+[0] Name: digitalocean.com | TTL: 300 | Data: issue "globalsign.com"
+[1] Name: digitalocean.com | TTL: 300 | Data: iodef "mailto:security@digitalocean.com"
+[2] Name: digitalocean.com | TTL: 300 | Data: issuewild "globalsign.com"
+[3] Name: digitalocean.com | TTL: 300 | Data: issue "awstrust.com"
+[4] Name: digitalocean.com | TTL: 300 | Data: issue "digicert.com; cansignhttpexchanges=yes"
+[5] Name: digitalocean.com | TTL: 300 | Data: issuewild "digicert.com; cansignhttpexchanges=yes"
+[6] Name: digitalocean.com | TTL: 300 | Data: issue "comodoca.com"
+[7] Name: digitalocean.com | TTL: 300 | Data: issue "letsencrypt.org"
+[8] Name: digitalocean.com | TTL: 300 | Data: issuewild "comodoca.com"
+[9] Name: digitalocean.com | TTL: 300 | Data: issuewild "letsencrypt.org"
+-----------
+NS Records:
+[0] Name: digitalocean.com | TTL: 83292 | Data: kim.ns.cloudflare.com.
+[1] Name: digitalocean.com | TTL: 83292 | Data: walt.ns.cloudflare.com.
+-----------
+SRV Records: None
+-----------
+DMARC Records:
+[0] Name: _dmarc.digitalocean.com | TTL: 300 | Data: v=DMARC1
+[1] Name: _dmarc.digitalocean.com | TTL: 300 | Data:  p=reject
+[2] Name: _dmarc.digitalocean.com | TTL: 300 | Data:  pct=100
+[3] Name: _dmarc.digitalocean.com | TTL: 300 | Data:  rua=mailto:fdpfb1lo@ag.dmarcian.com
+[4] Name: _dmarc.digitalocean.com | TTL: 300 | Data:  ruf=mailto:fdpfb1lo@fr.dmarcian.com
+-----------
+SSHFP Records: None
+-----------
+TLSA Records: None
+-----------
