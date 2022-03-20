@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Connection1</key>
+	<dict>
+		<key>ConnectionID</key>
+		<string>A474DFC0-4222-43D4-95BA-0021F155283A</string>
+		<key>DisplayName</key>
+		<string>File Provider Storage</string>
+		<key>ProtocolType</key>
+		<integer>11</integer>
+		<key>SortID</key>
+		<string>1</string>
+	</dict>
+	<key>ConvertHeicToJpg</key>
+	<false/>
+	<key>DownloadMoviePoster</key>
+	<true/>
+	<key>ExportConnectionPassword</key>
+	<true/>
+	<key>FESettings</key>
+	<true/>
+	<key>Language</key>
+	<string>en</string>
+	<key>MaxCacheSize</key>
+	<integer>500</integer>
+	<key>ShowHiddenFiles</key>
+	<true/>
+	<key>UseHardwareAccel</key>
+	<false/>
+	<key>VersionUUID</key>
+	<string>61F75399-45EE-41AF-AB63-E5EDAA553A3F</string>
+	<key>VideoPlaybackInBackground</key>
+	<true/>
+</dict>
+</plist>
