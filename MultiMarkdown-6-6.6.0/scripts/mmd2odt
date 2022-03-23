@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# mmd2odt --- MultiMarkdown convenience script
+#	<http://fletcherpenney.net/multimarkdown/>
+#	Fletcher T. Penney
+#
+# Pass arguments on to the binary to convert text to OpenDocument
+#
+
+# Be sure to include multimarkdown in our PATH
+unset CDPATH
+SCRIPT="$0"
+while
+	DIR="$(cd -P -- "$(dirname -- "$SCRIPT")" && pwd)"
+	test -h "$SCRIPT"
+do
+	SCRIPT="$(readlink "$SCRIPT")"
+	[ "$SCRIPT" = "${SCRIPT#/}" ] && SCRIPT="$DIR/$SCRIPT"
+done
+PATH="$DIR:/usr/local/bin:$PATH"
+export PATH
+
+if ! command -v multimarkdown >/dev/null 2>&1
+then
+	echo multimarkdown executable not found! >&2
+	exit 1
+fi
+
+if [ $# = 0 ]
+then
+	multimarkdown -t odt
+else
+until [ "$*" = "" ]
+do
+	multimarkdown -b -t odt "$1"
+	shift
+done
+fi

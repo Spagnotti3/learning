@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# markdown --- MultiMarkdown convenience script
+#	<http://fletcherpenney.net/multimarkdown/>
+#	Fletcher T. Penney
+#
+# Pass arguments on to the binary to convert text to XHTML
+#
+
+# Be sure to include multimarkdown in our PATH
+unset CDPATH
+SCRIPT="$0"
+while
+	DIR="$(cd -P -- "$(dirname -- "$SCRIPT")" && pwd)"
+	test -h "$SCRIPT"
+do
+	SCRIPT="$(readlink "$SCRIPT")"
+	[ "$SCRIPT" = "${SCRIPT#/}" ] && SCRIPT="$DIR/$SCRIPT"
+done
+PATH="$DIR:/usr/local/bin:$PATH"
+export PATH
+
+if ! command -v multimarkdown >/dev/null 2>&1
+then
+	echo multimarkdown executable not found! >&2
+	exit 1
+fi
+
+if [ $# = 0 ]
+then
+	multimarkdown -c
+else
+until [ "$*" = "" ]
+do
+	multimarkdown -c -b "$1"
+	shift
+done
+fi
